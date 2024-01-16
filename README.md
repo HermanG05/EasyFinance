@@ -25,7 +25,10 @@ Development Period: December 2023 - January 2024
 Installation
 To run EasyFinance locally, follow these steps:
 
-Clone the repository: git clone https://github.com/your-username/EasyFinance.git
-Install dependencies: npm install
-Configure Firebase credentials and API keys.
-Run the application: npm start
+1.) Clone the repository: git clone https://github.com/your-username/EasyFinance.git
+
+2.) Install dependencies: npm install
+
+3.) Configure Firebase credentials and API keys.
+
+4.) Run the application: npm start
