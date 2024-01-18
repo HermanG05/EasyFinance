@@ -3,7 +3,7 @@ import {signInWithPopup} from 'firebase/auth';
 import {useNavigate} from 'react-router-dom';
 
 export const Auth = () => {
-
+    // User Authentication 
     const nav = useNavigate(); 
 
     const signInWithGoogle = async () => {
@@ -16,10 +16,16 @@ export const Auth = () => {
         };
         localStorage.setItem("auth", JSON.stringify(authInfo))
         nav("/expenses");
+        const name = result.user.displayName;
     };
     
-    return <div className="login-page">
+    return ( 
+    
+    <body class="login">
+    <div className="login-page">
         <p>Login In with Google</p>
         <button className="google-button" onClick={signInWithGoogle}>Login</button>
     </div>
+    </body>
+     )
 }

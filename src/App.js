@@ -1,7 +1,7 @@
 import './App.css';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import {Auth} from './pages/login/Index'; 
-import { Expenses } from './pages/login/expenses/login';
+import { Expenses } from './pages/login/expenses/expenses';
 import {InvestmentTracker } from './pages/login/expenses/investment_tracker';
 import { FinanceNews } from './pages/login/expenses/investment_tracker/finance_news';
 
