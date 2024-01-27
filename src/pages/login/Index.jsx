@@ -19,13 +19,13 @@ export const Auth = () => {
         const name = result.user.displayName;
     };
     
-    return ( 
-    
-    <body>
-    <div>
-        <p>Login In with Google</p>
-        <button className="google-button" onClick={signInWithGoogle}>Login</button>
+    return <div className="login-page">
+        <h1 id="login-title">EasyFinance</h1>
+        <div className="login-box">
+        <p>EasyFinance is an all in one solution to tracking your expenses, investments, and keeping up with personal finance news!</p>
+        <button className="google-button" onClick={signInWithGoogle}><span class="text">Login with Google</span></button>
+        <button className="google-button1" onClick={signInWithGoogle}><span>Sign-up with Google</span></button>
+        </div>
     </div>
-    </body>
-     )
 }
+
