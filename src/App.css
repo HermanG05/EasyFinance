@@ -147,14 +147,15 @@
   text-align: left;
   font-size: 70px;
   font-weight: bold;
-  border-right: 5px solid; 
+  /*border-right: 5px solid; 
   width: 100%;
   white-space: nowrap; 
   overflow: hidden;
-  animation: typing 6s, cursor 0.4s step-end infinite alternate; 
+  animation: typing 6s, cursor 0.4s step-end infinite alternate; */
+  margin: 100px;
 }
 
-
+/*
 @keyframes cursor {
   50% { border-color: transparent}
 }
@@ -163,4 +164,9 @@
   from {
     width: 0;
   }
+}
+*/
+
+.list-expenses h2 {
+  margin-right:45vw;
 }
